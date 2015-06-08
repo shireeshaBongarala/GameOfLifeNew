@@ -10,4 +10,9 @@ public class Cell {
     public boolean getState() {
         return state;
     }
+
+
+    public int liveNeighbours() {
+        return 0;
+    }
 }

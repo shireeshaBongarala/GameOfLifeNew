@@ -16,4 +16,13 @@ public class CellTest {
         assertThat(actualState, is(cell.getState()));
     }
 
+    @Test
+    public void testToCheckTheNumberOfLiveNeighboursOfTheCell(){
+        Cell cell = new Cell();
+
+        int actualLiveNeighbours = 0;
+
+        assertThat(actualLiveNeighbours,is(cell.liveNeighbours()));
+    }
+
 }
